@@ -1,0 +1,20 @@
+{
+  "name": "@elite-visuals/worker",
+  "private": true,
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "lint": "eslint . --ext .ts"
+  },
+  "dependencies": {
+    "bullmq": "^5.9.0",
+    "ioredis": "^5.3.2"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "eslint": "^8.57.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0"
+  }
+}
